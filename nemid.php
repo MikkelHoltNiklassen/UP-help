@@ -66,7 +66,7 @@ if (isset($_POST["submit"])){
 
     <script>
         function changeElement() {
-        document.getElementById('underskrevet').innerHTML = "Du har nu underskrevet kontrakten";
+        document.getElementById('underskrevet').innerHTML = alert("Du har nu underskrevet kontrakten");
         }
     </script>
 
